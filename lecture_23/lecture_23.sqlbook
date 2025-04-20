@@ -36,7 +36,8 @@ panel on the left:
 
 Delete existing table
 -- SQLBook: Code
--- Active: 1710903290079@@127.0.0.1@5432@postgres
+-- Active: 1745090949381@@127.0.0.1@5432@christinadai
+-- Active: 1745090949381@@127.0.0.1@5432@postgres290079@@127.0.0.1@5432@postgres
 -- If the table already exists we can drop it:
 -- If it doesn't exist nothing happens
 -- System commands are in upper case and user defined
@@ -49,6 +50,7 @@ DROP TABLE IF EXISTS drivers;
 
 Create empty table from codebook
 -- SQLBook: Code
+-- Active: 1745090949381@@127.0.0.1@5432@postgres
 -- Create empty TABLE called "drivers"
 -- This example has five arguments separated by a comma
 -- that contain the "column_name" and "column_type", respectively
@@ -100,7 +102,9 @@ Try it yourself!
 -- Select a new driver id (needs to be unique)
 -- Make sure to deparate arguments by a semicolon!
 
+INSERT INTO drivers  VALUES (16, 'Christina Dai', 'Chinese',30);
 
+INSERT INTO drivers  VALUES (15, 'Joanna Yao', 'Chinese',14);
 
 
 -- SQLBook: Markup
